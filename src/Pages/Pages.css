@@ -1,0 +1,244 @@
+.login {
+    margin-top: 4rem;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.096);
+}
+
+.lleft {
+    padding-top: 40px;
+    background-color: #222222;
+    color: whitesmoke;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Open sans';
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.mt-3 h4 {
+    font-size: 22px;
+}
+
+.lright {
+    width: 500px;
+    padding: 60px;
+}
+
+.input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 2.5px solid rgba(155, 155, 155, 0.356);
+    transition: all 0.5s;
+}
+
+.input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2.5px solid rgb(20, 20, 20);
+}
+
+.btn-login {
+    background: repeating-linear-gradient(to right top, #2c2c2c, #222222);
+    color: white;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.contp {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.conp {
+
+    margin-top: 150px;
+}
+
+.textp {
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.cardp {
+    width: 240px;
+    background-color: #222222;
+}
+
+.card {
+    background-color: #222222;
+}
+
+.btntambah {
+    width: 100%;
+    letter-spacing: 0.5px;
+    background-color: whitesmoke;
+}
+
+.box {
+    margin: 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    background-color: #222222;
+    box-shadow: 0px 0px 10px 1px rgba(161, 161, 161, 0.322);
+    border-radius: 10px;
+    display: flex;
+
+    /* align-items: center; */
+}
+
+.boxleft {
+
+    width: 55%;
+}
+
+.info {
+    padding-left: 5px;
+    padding-top: 13px;
+}
+
+.info h6 {
+    margin-top: 5px;
+    /* position: absolute; */
+}
+
+.info p {
+    color: rgb(231, 177, 0);
+}
+
+.boxright {
+    margin-left: 10px;
+    display: flex;
+}
+
+.jumlah {
+    margin-top: 10px;
+    /* margin-right: 10px; */
+}
+
+.jumlah input {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.plusmin:focus {
+    border: none;
+    outline: none;
+}
+
+.plusmin {
+    width: 30px;
+    padding: 0px;
+    align-items: center;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin: 2px;
+}
+
+.subtotal {
+    margin-top: 15px;
+}
+
+.subtotal p {
+    color: rgb(231, 177, 0);
+}
+
+.buttondelete {
+    background-color: white;
+    transition: 0.3s ease;
+    border: none;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 0px 8px 0.5px rgba(83, 83, 83, 0.274);
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 30%;
+    text-align: center;
+}
+
+.pembayaran {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pembayaran p {
+    padding: 14px;
+}
+
+.daftarBelanja {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.boxPembayaran {
+    margin: 10px 10px;
+    color: rgb(61, 61, 61);
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 1px rgba(161, 161, 161, 0.322);
+    border-radius: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dashed rgb(71, 71, 71);
+    padding-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.checkout {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 90%;
+    height: 35px;
+    margin-bottom: 17px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.checkout:focus {
+    border: none;
+    outline: none;
+}
+
+.fa-cart-plus {
+    color: rgba(128, 128, 128, 0.514);
+}
